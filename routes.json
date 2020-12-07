@@ -1,0 +1,174 @@
+{
+
+  "routes": [
+    {
+      "endpoint": "/addClient",
+      "destination": {
+        "uri": "http://localhost:8090/api/Client/Addclient",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/GetAccounts",
+      "destination": {
+        "uri": "http://localhost:8090/api/Account/GetAccounts",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/ClientLogin",
+      "destination": {
+        "uri": "http://localhost:8090/api/Client/ClientLogin",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/GetClientByClientId",
+      "destination": {
+        "uri": "http://localhost:8090/api/Client/GetClient",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/ClientLogout",
+      "destination": {
+        "uri": "http://localhost:8090/api/Client/ClientLogout",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/AdminLogin",
+      "destination": {
+        "uri": "http://localhost:8090/api/Admin/AdminLogin",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/AdminLogout",
+      "destination": {
+        "uri": "http://localhost:8090/api/Admin/AdminLogout",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/GetAdminByAdminId",
+      "destination": {
+        "uri": "http://localhost:8090/api/Admin/GetAdminByAdminId",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/AddAdmin",
+      "destination": {
+        "uri": "http://localhost:8090/api/Admin/AddAdmin",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/GetAllAccountType",
+      "destination": {
+        "uri": "http://localhost:8090/api/Account/GetAllAccountType",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/GetAllBranch",
+      "destination": {
+        "uri": "http://localhost:8090/api/Account/GetAllBranch",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/GetClientsBasedOnStatus",
+      "destination": {
+        "uri": "http://localhost:8090/api/Client/GetClientsBasedOnStatus",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/ApproveClient",
+      "destination": {
+        "uri": "http://localhost:8090/api/Admin/ApproveClient",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/AddAccount",
+      "destination": {
+        "uri": "http://localhost:8090/api/Account/AddAccount",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/GetAccountsByClientId",
+      "destination": {
+        "uri": "http://localhost:8090/api/Account/GetAccountsByClientId",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/GetAccountByAccountNumber",
+      "destination": {
+        "uri": "http://localhost:8090/api/Account/GetAccountByAccountNumber",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/GetAppliedAccountByAccountNumber",
+      "destination": {
+        "uri": "http://localhost:8090/api/Account/GetAppliedAccountByAccountNumber",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/ApproveAccount",
+      "destination": {
+        "uri": "http://localhost:8090/api/Admin/ApproveAccount",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/AddTransaction",
+      "destination": {
+        "uri": "http://localhost:8090/api/Transaction/AddTransaction",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/GetAccountSummary",
+      "destination": {
+        "uri": "http://localhost:8090/api/Transaction/GetAccountSummary",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/GetAllTransactions",
+      "destination": {
+        "uri": "http://localhost:8090/api/Transaction/GetAllTransactions",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/GetTransaction",
+      "destination": {
+        "uri": "http://localhost:8090/api/Transaction/GetTransaction",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/CloseAccount",
+      "destination": {
+        "uri": "http://localhost:8090/api/Admin/CloseAccount",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/GetLastThreeTransactions",
+      "destination": {
+        "uri": "http://localhost:8090/api/Transaction/GetLastThreeTransactions",
+        "requireAuthenticaion": "false"
+      }
+    }
+
+  ]
+  }
