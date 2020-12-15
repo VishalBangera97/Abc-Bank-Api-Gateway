@@ -163,12 +163,40 @@
       }
     },
     {
-      "endpoint": "/GetLastThreeTransactions",
+      "endpoint": "/GetLastTenTransactions",
       "destination": {
-        "uri": "http://localhost:8090/api/Transaction/GetLastThreeTransactions",
+        "uri": "http://localhost:8090/api/Transaction/GetLastTenTransactions",
         "requireAuthenticaion": "false"
+      }
+    },
+    {
+      "endpoint": "/ChangePhoneNumber",
+      "destination": {
+        "uri": "http://localhost:8090/api/Client/ChangePhoneNumber",
+        "requireAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/SetClientId",
+      "destination": {
+        "uri": "http://localhost:8090/api/Client/SetClientId",
+        "requireAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/ClearClientId",
+      "destination": {
+        "uri": "http://localhost:8090/api/Client/ClearClientId",
+        "requireAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/GetAllAccountStatusByClientId",
+      "destination": {
+        "uri": "http://localhost:8090/api/Account/GetAllAccountStatusByClientId",
+        "requireAuthentication": "false"
       }
     }
 
   ]
-  }
+}
